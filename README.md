@@ -76,6 +76,6 @@ These dependencies need to be installed and accessible in the user's $PATH for t
 Contributions to improve the script or documentation are welcome. Please follow the standard GitHub pull request process to submit your changes.
 
 # License
-The Script is released under GPU
+The Script is released under GPL-3.0
 
 
