@@ -1,7 +1,7 @@
 # virAssem_2
 
 
-This script is a comprehensive Bash pipeline designed for reference-guided assembly, specifically tailored for Lumpy Skin Disease Virus with Oxford Nanopore Technologies (ONT) sequencing data. It integrates several bioinformatics tools to automate the process from raw sequencing reads to consensus sequence generation, including quality control, alignment, variant calling, and coverage analysis.
+This script is a comprehensive Bash pipeline designed for reference-guided assembly, specifically tailored for viral genome sequenced using multiplex PCR method using Oxford Nanopore Technologies (ONT). It integrates several bioinformatics tools to automate the process from raw sequencing reads to consensus sequence generation, including quality control, alignment, variant calling, and coverage analysis.
 
 # Input and Output
 •	Input Directory (-i): Contains barcode-specific folders with FASTQ files
