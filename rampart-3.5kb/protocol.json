@@ -1,0 +1,10 @@
+{
+  "name": "MN995838.1 Lumpy skin disease virus isolate pendik, complete genome",
+  "description": "Amplicon based sequencing of Lumpy skin disease virus.",
+  "url": "http://artic.network/",
+  "displayOptions": {
+    "coverageThresholds": {
+      ">100x": 100, ">50x": 50, ">20x": 20, "0x": 0
+    }
+  }
+}
