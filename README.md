@@ -27,7 +27,9 @@ This script is a comprehensive Bash pipeline designed for reference-guided assem
 The script is executed from the command line with specified options for input and output directories, reference genome, and other parameters as needed. It's adaptable for various projects by adjusting the input parameters and can handle multiple barcodes in parallel, making it efficient for large datasets
 To use the pipeline, you can run the script with the following command:
 
-./virAssem_2.sh -i <input_dir> -o <output_dir> -r <reference_genome> -p <bedpe_file> -t <threads> -m <max_length> -l <min_length> 
+```bash
+bash virAssem_2.sh -i <input_dir> -o <output_dir> -r <reference_genome> -p <bedpe_file> -t <threads> -m <max_length> -l <min_length>
+`` 
 
 Where:
 •	-i specifies the input directory containing barcode folders with FASTQ files
