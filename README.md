@@ -29,7 +29,7 @@ To use the pipeline, you can run the script with the following command:
 
 ```bash
 bash virAssem_2.sh -i <input_dir> -o <output_dir> -r <reference_genome> -p <bedpe_file> -t <threads> -m <max_length> -l <min_length>
-`` 
+```
 
 Where:
 •	-i specifies the input directory containing barcode folders with FASTQ files
@@ -47,13 +47,16 @@ Where:
 •	-l (optional) sets the minimum read length (default is 150)
 
 # Example
-./virAssem_2.sh -i /path/to/input -o /path/to/output -r /path/to/reference.fasta -p /path/to/primers.bedpe -t 8 
-
+```bash
+bash virAssem_2.sh -i /path/to/input -o /path/to/output -r /path/to/reference.fasta -p /path/to/primers.bedpe -t 8 
+```
 Help
 
 For additional information or to display help, run:
 
-./virAssem_2.sh -h 
+```bash
+bash virAssem_2.sh -h 
+```
 
 # Dependencies
 This pipeline relies on several external tools:
